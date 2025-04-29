@@ -16,7 +16,8 @@
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     @vite("resources/js/app.js")
-    @vite("resources/css/app.css")
+    {{-- @vite("resources/css/app.css") --}}
+    @vite('resources/sass/app.scss')
 </head>
 <body class="bg-slate-900">
     <div id="root"></div>
